@@ -12,7 +12,7 @@
   }
 
   .text {
-    @apply text-gray-300 text-xl md:text-2xl tracking-tighter leading-normal;
+    @apply text-gray-300 text-xl md:text-2xl tracking-tight leading-normal;
   }
 
   .btn {

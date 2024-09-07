@@ -5,6 +5,7 @@ import { RecentWork } from "@/components/page/RecentWork";
 import { OurServices } from "@/components/page/OurServices";
 import { ManagingOn } from "@/components/page/ManagingOn";
 import { Reviews } from "@/components/page/Reviews";
+import { SecondCallToAction } from "@/components/page/SecondCallToAction";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <OurServices />
         <ManagingOn />
         <Reviews />
+        <SecondCallToAction />
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ export function ManagingOn() {
       >
         {platforms.map((platform) => (
           <img
+            key={platform.src}
             className="w-16 h-16"
             src={platform.src}
             alt={platform.name}

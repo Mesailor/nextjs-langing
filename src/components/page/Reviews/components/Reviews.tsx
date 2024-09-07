@@ -7,7 +7,7 @@ export function Reviews() {
       <h2 className="text-center heading-2">REVIEWS</h2>
       <div className="flex flex-wrap justify-center gap-4 px-4">
         {reviews.map((review) => (
-          <ReviewCard {...review} />
+          <ReviewCard key={review.name} {...review} />
         ))}
       </div>
     </div>
