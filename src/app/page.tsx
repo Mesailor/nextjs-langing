@@ -4,6 +4,7 @@ import { TrustedBy } from "@/components/page/TrustedBy";
 import { RecentWork } from "@/components/page/RecentWork";
 import { OurServices } from "@/components/page/OurServices";
 import { ManagingOn } from "@/components/page/ManagingOn";
+import { Reviews } from "@/components/page/Reviews";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <RecentWork />
         <OurServices />
         <ManagingOn />
+        <Reviews />
       </div>
     </div>
   );

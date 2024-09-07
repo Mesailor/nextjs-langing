@@ -4,7 +4,7 @@ interface Props {
   src: string;
 }
 
-export function ProudOfCard({ name, description, src }: Props) {
+export function RecentWorkCard({ name, description, src }: Props) {
   return (
     <div className="w-80 flex flex-col gap-8">
       <img

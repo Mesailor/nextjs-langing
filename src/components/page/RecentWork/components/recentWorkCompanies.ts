@@ -1,4 +1,4 @@
-export const proudOfCompanies = [
+export const recentWorkCompanies = [
   {
     name: "Mattress Center",
     description: "Retail Store Chain",

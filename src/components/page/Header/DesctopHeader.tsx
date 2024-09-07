@@ -5,7 +5,7 @@ import { links } from "./links";
 
 export function DesctopHeader() {
   return (
-    <div className="sticky top-0 bg-black border-b border-gray-900 hidden lg:flex justify-between items-center gap-6 px-10 py-3">
+    <div className="sticky top-0 bg-black border-b border-gray-900 hidden lg:flex justify-between items-center gap-6 px-10 py-3 z-10">
       <div>
         <LogoLink />
       </div>
