@@ -8,6 +8,7 @@ import { Reviews } from "@/components/page/Reviews";
 import { SecondCallToAction } from "@/components/page/SecondCallToAction";
 import { OurTeam } from "@/components/page/OurTeam";
 import { FAQ } from "@/components/page/FAQ";
+import { Footer } from "@/components/page/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <OurTeam />
         <FAQ />
       </div>
+      <Footer />
     </div>
   );
 }

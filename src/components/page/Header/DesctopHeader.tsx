@@ -14,7 +14,7 @@ export function DesctopHeader() {
           {links.map((link) => (
             <Link
               key={link.text}
-              className="hover:text-gray-400"
+              className="hover:text-blue-500 transition-colors"
               href={link.href}
             >
               {link.text}

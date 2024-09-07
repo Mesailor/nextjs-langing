@@ -25,7 +25,6 @@ export function QuestionDisclosure({ question, answer }: Props) {
         <p className="text-black text-lg font-semibold text-start">
           {question}
         </p>
-        {/* <ChevronDownIcon className="size-5 fill-white/60 group-data-[hover]:fill-white/50 " /> */}
       </DisclosureButton>
       <DisclosurePanel
         transition
