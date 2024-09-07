@@ -6,6 +6,7 @@ import { OurServices } from "@/components/page/OurServices";
 import { ManagingOn } from "@/components/page/ManagingOn";
 import { Reviews } from "@/components/page/Reviews";
 import { SecondCallToAction } from "@/components/page/SecondCallToAction";
+import { OurTeam } from "@/components/page/OurTeam";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <ManagingOn />
         <Reviews />
         <SecondCallToAction />
+        <OurTeam />
       </div>
     </div>
   );
