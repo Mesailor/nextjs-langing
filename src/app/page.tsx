@@ -3,6 +3,7 @@ import { FirstCallToAction } from "@/components/page/FirstCallToAction";
 import { TrustedBy } from "@/components/page/TrustedBy";
 import { RecentWork } from "@/components/page/RecentWork";
 import { OurServices } from "@/components/page/OurServices";
+import { ManagingOn } from "@/components/page/ManagingOn";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <TrustedBy />
         <RecentWork />
         <OurServices />
+        <ManagingOn />
       </div>
     </div>
   );
