@@ -6,7 +6,7 @@ export function LogoLink() {
       <img
         style={{ width: "140px", height: "40px" }}
         className="object-cover"
-        src="/emotion.png"
+        src="/emotion.svg"
         alt="Logo"
       />
     </Link>

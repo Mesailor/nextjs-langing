@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { robotoMono } from "./fonts/fonts";
+import { radiotechnika, robotoMono } from "./fonts/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Emotion",
+  title: "Emotion Landing Copy",
 };
 
 export default function RootLayout({
@@ -13,7 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoMono.className}`}>{children}</body>
+      <body className={`${robotoMono.className} ${radiotechnika.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

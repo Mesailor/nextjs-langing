@@ -11,4 +11,5 @@ export const robotoMono = Roboto_Mono({
 export const radiotechnika = localFont({
   src: "/Radiotechnika.otf",
   display: "swap",
+  variable: "--font-radiotechnika",
 });

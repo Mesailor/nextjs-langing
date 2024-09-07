@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @layer components {
+  .heading-1 {
+    @apply lg:text-7xl md:text-5xl text-4xl tracking-tighter font-radiotechnika;
+  }
+
+  .heading-2 {
+    @apply text-4xl sm:text-5xl tracking-tighter font-radiotechnika;
+  }
+
+  .p-secondary {
+    @apply text-gray-300 text-xl md:text-2xl tracking-tighter leading-normal;
+  }
+
   .btn {
     @apply text-sm font-bold px-4 py-3 rounded-lg hover:opacity-90 focus:outline-none focus:ring focus:ring-white;
   }
