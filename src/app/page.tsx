@@ -7,6 +7,7 @@ import { ManagingOn } from "@/components/page/ManagingOn";
 import { Reviews } from "@/components/page/Reviews";
 import { SecondCallToAction } from "@/components/page/SecondCallToAction";
 import { OurTeam } from "@/components/page/OurTeam";
+import { BookCall } from "@/components/page/BookCall";
 import { FAQ } from "@/components/page/FAQ";
 import { Footer } from "@/components/page/Footer";
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Reviews />
         <SecondCallToAction />
         <OurTeam />
+        <BookCall />
         <FAQ />
       </div>
       <Footer />
