@@ -11,7 +11,7 @@
     @apply text-4xl sm:text-5xl tracking-tighter font-radiotechnika;
   }
 
-  .p-secondary {
+  .text {
     @apply text-gray-300 text-xl md:text-2xl tracking-tighter leading-normal;
   }
 
