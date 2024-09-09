@@ -1,3 +1,9 @@
+import { CallToAction } from "./_components/CallToAction";
+
 export default function ServicesPage() {
-  return <div>SERVICES PAGE</div>;
+  return (
+    <div className="w-full">
+      <CallToAction />
+    </div>
+  );
 }
