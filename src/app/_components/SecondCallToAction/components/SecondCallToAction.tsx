@@ -14,8 +14,12 @@ export function SecondCallToAction() {
           Book a call or meeting now to discuss your project with us!
         </p>
         <div className="flex gap-6 mx-auto">
-          <button className="btn btn-primary">Book a call</button>
-          <button className="btn btn-secondary">Our services</button>
+          <a href="#book-call" className="btn btn-primary">
+            Book a call
+          </a>
+          <a href="/services" className="btn btn-secondary">
+            Our services
+          </a>
         </div>
       </div>
     </div>

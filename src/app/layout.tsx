@@ -14,9 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="scroll-smooth scroll-mt-80" lang="en">
       <body
-        className={`${robotoMono.className} ${radiotechnika.variable} flex flex-col justify-between h-screen`}
+        className={`${robotoMono.className} ${radiotechnika.variable} flex flex-col justify-between`}
       >
         <Header />
         <div className="grow">{children}</div>

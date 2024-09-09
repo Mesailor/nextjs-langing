@@ -17,8 +17,12 @@ export function FirstCallToAction() {
           audience, turning ideas into profitable outcomes.
         </p>
         <div className="flex gap-6">
-          <button className="btn btn-primary">Book a call</button>
-          <button className="btn btn-secondary">Our services</button>
+          <a href="#book-call" className="btn btn-primary">
+            Book a call
+          </a>
+          <a href="/services" className="btn btn-secondary">
+            Our services
+          </a>
         </div>
       </div>
     </Background>
