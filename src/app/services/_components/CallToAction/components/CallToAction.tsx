@@ -1,6 +1,6 @@
 import { contacts } from "@/app/_components/Footer/content";
-import { ArrowRightIcon } from "@/components/UI/icons/ArrowRightIcon";
 import Link from "next/link";
+import { GetStartedButton } from "../../UI/GetStartedButton";
 
 export function CallToAction() {
   return (
@@ -23,13 +23,7 @@ export function CallToAction() {
             We are committed to pushing the boundaries of what's possible.
           </p>
         </div>
-        <button className="w-fit bg-indigo-400 text-xl py-4 px-7 rounded-full flex justify-between gap-2 items-center hover:bg-white hover:text-black hover:gap-2.5 transition-all duration-300">
-          <span>Get Started</span>
-          <div className="h-5 border-x border-current"></div>
-          <span>
-            <ArrowRightIcon />
-          </span>
-        </button>
+        <GetStartedButton />
       </div>
       <div className="flex gap-8">
         {contacts.map((contact) => (

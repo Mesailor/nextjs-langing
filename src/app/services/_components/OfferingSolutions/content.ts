@@ -1,0 +1,55 @@
+export const solutions = [
+  {
+    src: "https://framerusercontent.com/images/OcGsDUOC7oqKfTIAWDrSACgUPps.png?scale-down-to=2048",
+    name: "📈 Social Media Marketing",
+    slogan: "Showcase Your Brand Online with Us",
+    points: [
+      "Tailored brand promotion strategies",
+      "Social media management: Instagram, TikTok, Facebook, Snapchat",
+      "Targeted audience engagement",
+      "High-quality content: video, photo, graphic, motion design",
+    ],
+    price: "3 000+ AED",
+  },
+  {
+    src: "https://framerusercontent.com/images/xyFLySk6mEz6JQKXfOLC3dn7YHQ.png?scale-down-to=2048",
+    name: "📢 Paid Advertising",
+    slogan: "Launch Effective Advertising Campaigns",
+    points: [
+      "Targeted media plan development",
+      "Audience segmentation and platform selection",
+      "Compelling ad copy and creative design",
+      "Ad campaigns on Instagram, Facebook, TikTok, Snapchat, YouTube, Google, LinkedIn",
+      "Campaign optimization for maximum results",
+    ],
+    price: " TBD",
+  },
+  {
+    src: "https://framerusercontent.com/images/ElBPWW05rXGCn8Qcai4ohd5qGFg.png",
+    name: "🧑🏼‍🎨 Branding",
+    slogan: "Build a Brand that Captivates and Endures",
+    points: [
+      "In-depth market analysis",
+      "Unique brand concept development",
+      "Key visual creation (logo, identity, Tone of Voice)",
+      "Consistent branding across all channels",
+      "Strengthen brand positioning, recognition, and loyalty",
+      "Rebranding services",
+    ],
+    price: "3 000+ AED",
+  },
+  {
+    src: "https://framerusercontent.com/images/QeoWSEIJVE8lyEXjcOy42bLKs.png",
+    name: "👩🏻‍💻 Design",
+    slogan: "Get Designs that Stand Out and Get Noticed",
+    points: [
+      "Captivating graphic design",
+      "Dynamic motion graphics",
+      "Intuitive UX/UI design",
+      "Cohesive brand visual identity",
+      "Optimized user experiences",
+      "Enhanced visual storytelling",
+    ],
+    price: "TBD",
+  },
+];
