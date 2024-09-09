@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { radiotechnika, robotoMono } from "./fonts/fonts";
+import { radiotechnika, robotoMono } from "./_fonts/fonts";
 import "./globals.css";
+import { Header } from "@/app/_components/Header";
+import { Footer } from "@/app/_components/Footer";
 
 export const metadata: Metadata = {
   title: "Emotion Landing Copy",
@@ -13,8 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoMono.className} ${radiotechnika.variable}`}>
-        {children}
+      <body
+        className={`${robotoMono.className} ${radiotechnika.variable} flex flex-col justify-between h-screen`}
+      >
+        <Header />
+        <div className="grow">{children}</div>
+        <Footer />
       </body>
     </html>
   );

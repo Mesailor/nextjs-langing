@@ -14,12 +14,8 @@ import { links } from "./links";
 
 export function MobileHeader() {
   return (
-    <Disclosure
-      as="div"
-      className="bg-black border-b border-gray-900 sticky top-0 z-10"
-      defaultOpen={false}
-    >
-      <div className="mx-auto md:px-10 lg:hidden flex justify-between items-center gap-6 px-6 py-2">
+    <Disclosure as="div" className="lg:hidden" defaultOpen={false}>
+      <div className="mx-auto md:px-10 flex justify-between items-center gap-6 px-6 py-2">
         <DisclosureButton className="group h-6 w-6 relative">
           <BarsIcon className="absolute top-0 group-data-[open]:opacity-0 opacity-100 transition-all duration-200" />
           <CrossIcon className="absolute top-0 group-data-[open]:opacity-100 opacity-0 transition-all duration-200" />

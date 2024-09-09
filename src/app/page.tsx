@@ -1,20 +1,17 @@
-import { Header } from "@/components/page/Header";
-import { FirstCallToAction } from "@/components/page/FirstCallToAction";
-import { TrustedBy } from "@/components/page/TrustedBy";
-import { RecentWork } from "@/components/page/RecentWork";
-import { OurServices } from "@/components/page/OurServices";
-import { ManagingOn } from "@/components/page/ManagingOn";
-import { Reviews } from "@/components/page/Reviews";
-import { SecondCallToAction } from "@/components/page/SecondCallToAction";
-import { OurTeam } from "@/components/page/OurTeam";
-import { BookCall } from "@/components/page/BookCall";
-import { FAQ } from "@/components/page/FAQ";
-import { Footer } from "@/components/page/Footer";
+import { FirstCallToAction } from "@/app/_components/FirstCallToAction";
+import { TrustedBy } from "@/app/_components/TrustedBy";
+import { RecentWork } from "@/app/_components/RecentWork";
+import { OurServices } from "@/app/_components/OurServices";
+import { ManagingOn } from "@/app/_components/ManagingOn";
+import { Reviews } from "@/app/_components/Reviews";
+import { SecondCallToAction } from "@/app/_components/SecondCallToAction";
+import { OurTeam } from "@/app/_components/OurTeam";
+import { BookCall } from "@/app/_components/BookCall";
+import { FAQ } from "@/app/_components/FAQ";
 
 export default function Home() {
   return (
     <div className="w-full">
-      <Header />
       <div className="flex flex-col gap-20">
         <FirstCallToAction />
         <TrustedBy />
@@ -27,7 +24,6 @@ export default function Home() {
         <BookCall />
         <FAQ />
       </div>
-      <Footer />
     </div>
   );
 }
