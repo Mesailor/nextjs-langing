@@ -1,3 +1,4 @@
+import { BookCall } from "@/components/sections/BookCall";
 import { CallToAction } from "./_components/CallToAction";
 import { HowWeCanHelp } from "./_components/HoWeCanHelp";
 import { OfferingSolutions } from "./_components/OfferingSolutions";
@@ -8,6 +9,7 @@ export default function ServicesPage() {
       <CallToAction />
       <OfferingSolutions />
       <HowWeCanHelp />
+      <BookCall />
     </div>
   );
 }

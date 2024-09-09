@@ -6,7 +6,7 @@ import { ManagingOn } from "@/app/_components/ManagingOn";
 import { Reviews } from "@/app/_components/Reviews";
 import { SecondCallToAction } from "@/app/_components/SecondCallToAction";
 import { OurTeam } from "@/app/_components/OurTeam";
-import { BookCall } from "@/app/_components/BookCall";
+import { BookCall } from "@/components/sections/BookCall";
 import { FAQ } from "@/app/_components/FAQ";
 
 export default function Home() {
