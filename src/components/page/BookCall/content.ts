@@ -4,7 +4,7 @@ export const calendlyConfig: CalendlyConfig = {
     position: "relative",
     WebkitOverflowScrolling: "touch",
     minWidth: "100%",
-    height: "100%",
+    height: "1100px",
   },
 };
 
