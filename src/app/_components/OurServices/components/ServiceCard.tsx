@@ -1,3 +1,4 @@
+import { AppearInSight } from "@/components/UI/components/AppearInSight";
 import Link from "next/link";
 
 interface Props {

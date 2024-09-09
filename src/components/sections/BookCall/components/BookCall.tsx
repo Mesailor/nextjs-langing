@@ -1,3 +1,4 @@
+import { AppearInSight } from "@/components/UI/components/AppearInSight";
 import { CalendlyBooking } from "./CalendlyBooking";
 
 export function BookCall() {
@@ -6,7 +7,9 @@ export function BookCall() {
       id="book-call"
       className="max-w-5xl mx-auto py-6 px-4 flex flex-col gap-10"
     >
-      <h2 className="text-center heading-2">BOOK A CALL TODAY</h2>
+      <AppearInSight>
+        <h2 className="text-center heading-2">BOOK A CALL TODAY</h2>
+      </AppearInSight>
       <div className="h-fit">
         <CalendlyBooking />
       </div>

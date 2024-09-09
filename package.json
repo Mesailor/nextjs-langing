@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.1.5",
+    "@uidotdev/usehooks": "^2.4.1",
     "next": "14.2.8",
     "react": "^18",
     "react-calendly": "^4.3.1",
