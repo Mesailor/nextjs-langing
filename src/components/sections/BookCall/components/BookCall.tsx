@@ -4,7 +4,7 @@ import { CalendlyBooking } from "./CalendlyBooking";
 export function BookCall() {
   return (
     <div
-      id="book-call"
+      id="booking"
       className="max-w-5xl mx-auto py-6 px-4 flex flex-col gap-10"
     >
       <AppearInSight>

@@ -24,7 +24,7 @@ export function FirstCallToAction() {
 
         <AppearInSight>
           <div className="flex gap-6">
-            <a href="#book-call" className="btn btn-primary">
+            <a href="#booking" className="btn btn-primary">
               Book a call
             </a>
             <a href="/services" className="btn btn-secondary">
