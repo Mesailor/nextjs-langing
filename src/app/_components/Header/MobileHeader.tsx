@@ -2,6 +2,7 @@
 import { BarsIcon } from "@/components/UI/icons/BarsIcon";
 import { CrossIcon } from "@/components/UI/icons/CrossIcon";
 import {
+  CloseButton,
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
@@ -22,34 +23,37 @@ export function MobileHeader() {
         </DisclosureButton>
         <LogoLink />
       </div>
-      <TransitionChild
-        enter="ease-linear duration-200"
-        enterFrom="h-0"
-        enterTo="h-60"
-        leave="ease-linear duration-200"
-        leaveFrom="h-60"
-        leaveTo="h-0"
-      >
-        <DisclosurePanel className="bg-black w-full absolute border-b border-gray-900 overflow-hidden">
-          <div className="p-4 md:px-10 md:pb-6">
-            <div className="flex flex-col gap-4 text-xl">
-              {links.map((link) => (
-                <Link
-                  key={link.text}
-                  className="hover:text-gray-400"
-                  href={link.href}
-                >
-                  {link.text}
-                </Link>
-              ))}
+      <div className="absolute overflow-hidden h-fit w-full">
+        <TransitionChild
+          enter="ease-linear duration-200"
+          enterFrom="-translate-y-full"
+          enterTo="translate-y-0"
+          leave="ease-linear duration-200"
+          leaveFrom="translate-y-0"
+          leaveTo="-translate-y-full"
+        >
+          <DisclosurePanel className="bg-black w-full border-b border-gray-900 overflow-hidden">
+            <div className="p-4 md:px-10 md:pb-6">
+              <div className="flex flex-col gap-4 text-xl">
+                {links.map((link) => (
+                  <CloseButton
+                    key={link.text}
+                    as={Link}
+                    className="hover:text-gray-400"
+                    href={link.href}
+                  >
+                    {link.text}
+                  </CloseButton>
+                ))}
+              </div>
+              <div className="mt-6 flex gap-4">
+                <p>Dubai / UAE</p>
+                <PhoneLink />
+              </div>
             </div>
-            <div className="mt-6 flex gap-4">
-              <p>Dubai / UAE</p>
-              <PhoneLink />
-            </div>
-          </div>
-        </DisclosurePanel>
-      </TransitionChild>
+          </DisclosurePanel>
+        </TransitionChild>
+      </div>
     </Disclosure>
   );
 }
