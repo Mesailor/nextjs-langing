@@ -1,8 +1,8 @@
 export function HightechVideo() {
   return (
-    <div className="md:px-6 w-full relative overflow-hidden">
+    <div className="md:px-20 w-full relative overflow-hidden">
       <video
-        className="md:rounded-3xl h-full w-full block object-cover object-center"
+        className="md:rounded-3xl h-full w-full max-h-96 block object-cover object-center"
         loop
         muted
         playsInline
