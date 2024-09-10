@@ -9,7 +9,7 @@ interface Props {
 export function RecentWorkCard({ name, description, src }: Props) {
   return (
     <AppearInSight>
-      <div className="min-w-80 w-96 flex flex-col gap-8">
+      <div className="mx-auto min-w-80 w-3/4 lg:w-full flex flex-col gap-8">
         <img
           className="w-full aspect-square object-cover rounded-3xl"
           src={src}

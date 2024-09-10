@@ -21,7 +21,7 @@ export function AppearInSight({ children }: PropsWithChildren) {
   return (
     <div ref={ref}>
       <div
-        className={`transition duration-700 ease-out ${
+        className={`transition duration-700 ease-out w-full ${
           isSeen ? "opacity-100" : "opacity-0 translate-y-20"
         }`}
       >

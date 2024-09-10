@@ -11,7 +11,7 @@ export function RecentWork() {
           <p className="text-center text">This is what we proud of</p>
         </div>
       </AppearInSight>
-      <div className="flex flex-col items-center lg:grid grid-cols-2 gap-16">
+      <div className="flex flex-col items-center lg:grid grid-cols-2 gap-16 lg:px-6">
         {recentWorkCompanies.map((company) => (
           <RecentWorkCard key={company.name} {...company} />
         ))}
