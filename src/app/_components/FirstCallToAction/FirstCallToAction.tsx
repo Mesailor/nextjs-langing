@@ -1,6 +1,8 @@
 import { AppearInSight } from "@/components/UI/components/AppearInSight";
 import { Background } from "./Background";
 import { HightechVideo } from "./HightechVideo";
+import { BookCallButton } from "../Buttons/BookCallButton";
+import { ServicesButton } from "../Buttons/ServicesButton";
 
 export function FirstCallToAction() {
   return (
@@ -24,12 +26,8 @@ export function FirstCallToAction() {
 
         <AppearInSight>
           <div className="flex gap-6">
-            <a href="#booking" className="btn btn-primary">
-              Book a call
-            </a>
-            <a href="/services" className="btn btn-secondary">
-              Our services
-            </a>
+            <BookCallButton />
+            <ServicesButton />
           </div>
         </AppearInSight>
       </div>

@@ -14,11 +14,11 @@ export function MemberCard({ name, position, description, src }: Props) {
       className="w-full h-full bg-white rounded-3xl"
     >
       <Image
-        className="rounded-t-3xl object-cover"
+        className="rounded-t-3xl object-cover w-full"
         src={src}
         alt={name}
-        width={1024}
-        height={1024}
+        width={400}
+        height={300}
       />
       <div className="p-8 flex flex-col gap-2">
         <div>

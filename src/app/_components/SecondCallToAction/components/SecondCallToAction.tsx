@@ -1,3 +1,6 @@
+import { BookCallButton } from "../../Buttons/BookCallButton";
+import { ServicesButton } from "../../Buttons/ServicesButton";
+
 export function SecondCallToAction() {
   return (
     <div
@@ -14,12 +17,8 @@ export function SecondCallToAction() {
           Book a call or meeting now to discuss your project with us!
         </p>
         <div className="flex gap-6 mx-auto">
-          <a href="#booking" className="btn btn-primary">
-            Book a call
-          </a>
-          <a href="/services" className="btn btn-secondary">
-            Our services
-          </a>
+          <BookCallButton />
+          <ServicesButton />
         </div>
       </div>
     </div>

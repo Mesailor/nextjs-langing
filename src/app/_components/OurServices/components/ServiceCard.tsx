@@ -15,11 +15,11 @@ export function ServiceCard({ name, description, src }: Props) {
     >
       <div className="w-full">
         <Image
-          className="object-cover rounded-3xl"
+          className="object-cover rounded-3xl w-full"
           src={src}
           alt={name}
-          width={1024}
-          height={1024}
+          width={320}
+          height={150}
         />
       </div>
       <div className="grow p-6 flex flex-col justify-between gap-4">

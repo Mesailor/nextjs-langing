@@ -15,8 +15,8 @@ export function RecentWorkCard({ name, description, src }: Props) {
           className="w-full aspect-square object-cover rounded-3xl"
           src={src}
           alt={name}
-          width={1024}
-          height={1024}
+          width={400}
+          height={400}
         />
         <div className="text-center flex flex-col gap-5">
           <p className="text">{name}</p>
