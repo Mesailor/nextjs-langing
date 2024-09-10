@@ -1,5 +1,6 @@
 import { AppearInSight } from "@/components/UI/components/AppearInSight";
 import { platforms } from "../content";
+import Image from "next/image";
 
 export function ManagingOn() {
   return (
@@ -13,12 +14,14 @@ export function ManagingOn() {
           className="flex flex-wrap justify-center gap-16"
         >
           {platforms.map((platform) => (
-            <img
+            <Image
               key={platform.src}
               className="w-16 h-16"
               src={platform.src}
               alt={platform.name}
-            ></img>
+              width={64}
+              height={64}
+            />
           ))}
         </div>
       </AppearInSight>

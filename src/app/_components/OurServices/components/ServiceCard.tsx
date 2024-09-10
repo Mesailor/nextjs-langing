@@ -1,4 +1,4 @@
-import { AppearInSight } from "@/components/UI/components/AppearInSight";
+import Image from "next/image";
 import Link from "next/link";
 
 interface Props {
@@ -14,7 +14,13 @@ export function ServiceCard({ name, description, src }: Props) {
       className="bg-black h-full rounded-3xl flex flex-col min-w-80 sm:min-w-96"
     >
       <div className="w-full">
-        <img className="object-cover rounded-3xl" src={src} alt={name} />
+        <Image
+          className="object-cover rounded-3xl"
+          src={src}
+          alt={name}
+          width={1024}
+          height={1024}
+        />
       </div>
       <div className="grow p-6 flex flex-col justify-between gap-4">
         <div className="flex flex-col gap-6">

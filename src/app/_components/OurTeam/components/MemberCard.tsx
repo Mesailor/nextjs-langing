@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface Props {
   name: string;
   position: string;
@@ -11,7 +13,13 @@ export function MemberCard({ name, position, description, src }: Props) {
       style={{ maxWidth: "410px", minWidth: "320px" }}
       className="w-full h-full bg-white rounded-3xl"
     >
-      <img className="rounded-t-3xl object-cover" src={src} alt={name} />
+      <Image
+        className="rounded-t-3xl object-cover"
+        src={src}
+        alt={name}
+        width={1024}
+        height={1024}
+      />
       <div className="p-8 flex flex-col gap-2">
         <div>
           <p className="text-black text-xl font-medium">{name}</p>

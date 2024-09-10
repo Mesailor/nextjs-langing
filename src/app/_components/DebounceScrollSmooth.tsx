@@ -5,17 +5,17 @@ export function DebounceScrollSmooth() {
   React.useEffect(() => {
     let timeoutId: NodeJS.Timeout;
 
-    function myeventHandler(event: Event) {
+    function eventHandler() {
       document.documentElement.style.scrollBehavior = "auto";
       timeoutId = setTimeout(() => {
         document.documentElement.style.scrollBehavior = "smooth";
       }, 100);
     }
-    window.addEventListener("load", myeventHandler);
+    window.addEventListener("load", eventHandler);
 
     return () => {
       clearTimeout(timeoutId);
-      window.removeEventListener("load", myeventHandler);
+      window.removeEventListener("load", eventHandler);
     };
   }, []);
 

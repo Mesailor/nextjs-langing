@@ -6,7 +6,7 @@ import { PropsWithChildren } from "react";
 
 export function AppearInSight({ children }: PropsWithChildren) {
   const [ref, entry] = useIntersectionObserver({
-    threshold: 0.6,
+    threshold: 0.4,
     root: null,
     rootMargin: "0px",
   });

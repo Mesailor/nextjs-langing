@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { contacts } from "../content";
 
 export function Footer() {
@@ -9,10 +10,12 @@ export function Footer() {
       <div className="flex gap-6">
         {contacts.map((contact) => (
           <a key={contact.href} href={contact.href} target="_blank">
-            <img
+            <Image
               className="w-6 h-6 object-cover"
               src={contact.src}
               alt={contact.name}
+              width={24}
+              height={24}
             />
           </a>
         ))}

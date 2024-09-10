@@ -2,6 +2,7 @@ import { contacts } from "@/app/_components/Footer/content";
 import Link from "next/link";
 import { GetStartedButton } from "../../UI/GetStartedButton";
 import { AppearInSight } from "@/components/UI/components/AppearInSight";
+import Image from "next/image";
 
 export function CallToAction() {
   return (
@@ -22,7 +23,7 @@ export function CallToAction() {
               LAUNCHING BRANDS, CAPTURING AUDIENCE
             </h1>
             <p className="text-2xl tracking-wide">
-              We are committed to pushing the boundaries of what's possible.
+              {"We are committed to pushing the boundaries of what's possible."}
             </p>
           </div>
           <GetStartedButton />
@@ -31,7 +32,13 @@ export function CallToAction() {
       <div className="flex gap-8">
         {contacts.map((contact) => (
           <Link key={contact.src} href={contact.href}>
-            <img className="h-12 w-12" src={contact.src} alt={contact.name} />
+            <Image
+              className="h-12 w-12"
+              src={contact.src}
+              alt={contact.name}
+              width={48}
+              height={48}
+            />
           </Link>
         ))}
       </div>
