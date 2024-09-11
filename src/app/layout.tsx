@@ -6,6 +6,7 @@ import { Footer } from "@/app/_components/Footer";
 
 export const metadata: Metadata = {
   title: "Emotion Landing Copy",
+  description: "We are Dubai based marketing company",
 };
 
 export default function RootLayout({
@@ -15,12 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html className="sm:scroll-pt-16 scroll-pt-12 scroll-smooth" lang="en">
-      <body
-        className={`${robotoMono.className} ${radiotechnika.variable} flex flex-col justify-between`}
-      >
-        <Header />
-        <div className="grow">{children}</div>
-        <Footer />
+      <body className={`${robotoMono.className} ${radiotechnika.variable}`}>
+        <div className="flex flex-col justify-between min-h-screen">
+          <Header />
+          <div className="grow">{children}</div>
+          <Footer />
+        </div>
       </body>
     </html>
   );
