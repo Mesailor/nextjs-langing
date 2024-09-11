@@ -7,6 +7,8 @@ export function HightechVideo() {
         muted
         playsInline
         autoPlay
+        width={990}
+        height={385}
       >
         <source
           src="https://framerusercontent.com/assets/3wHMzFjRI15DjAzmesrjiWKTkM.mp4"

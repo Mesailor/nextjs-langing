@@ -16,13 +16,11 @@ export function FirstCallToAction() {
 
         <HightechVideo />
 
-        <AppearInSight>
-          <p className="max-w-5xl px-6 text-center text">
-            Welcome to a world where every click creates opportunities, every
-            message matters, and every ad campaign shines. We connect you to
-            your audience, turning ideas into profitable outcomes.
-          </p>
-        </AppearInSight>
+        <p className="max-w-5xl px-6 text-center text">
+          Welcome to a world where every click creates opportunities, every
+          message matters, and every ad campaign shines. We connect you to your
+          audience, turning ideas into profitable outcomes.
+        </p>
 
         <AppearInSight>
           <div className="flex gap-6">
