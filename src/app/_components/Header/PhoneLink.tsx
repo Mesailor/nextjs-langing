@@ -1,4 +1,4 @@
-import { phone } from "@/config";
+import { phone } from "./content";
 
 export function PhoneLink() {
   return (

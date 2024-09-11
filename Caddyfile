@@ -1,0 +1,5 @@
+emotion.sailorme.ru {
+  reverse_proxy next-emotion-landing:3000  {
+    header_down Strict-Transport-Security max-age=31536000;
+   }
+}

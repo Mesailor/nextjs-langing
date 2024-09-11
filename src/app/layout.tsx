@@ -4,6 +4,7 @@ import { radiotechnika, robotoMono } from "./_fonts/fonts";
 import "./globals.css";
 import { Header } from "@/app/_components/Header";
 import { Footer } from "@/app/_components/Footer";
+import { host } from "@/config";
 
 export const viewport: Viewport = {
   themeColor: "black",
@@ -13,14 +14,14 @@ export const metadata: Metadata = {
   title: "Emotion Tech",
   description: "We are Dubai based marketing company",
   generator: "Next.js",
-  metadataBase: new URL("https://emotiontech.ae"),
+  metadataBase: new URL(host),
   alternates: {
     canonical: "/",
   },
   robots: { "max-image-preview": "large" },
   openGraph: {
     title: "Emotion Tech",
-    url: "https://emotiontech.ae",
+    url: host,
     siteName: "Emotion Tech",
   },
 };

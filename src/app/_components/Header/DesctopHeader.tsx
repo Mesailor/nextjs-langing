@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { LogoLink } from "./LogoLink";
 import { PhoneLink } from "./PhoneLink";
-import { links } from "./links";
+import { links } from "./content";
 
 export function DesctopHeader() {
   return (
