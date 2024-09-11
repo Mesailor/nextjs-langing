@@ -12,6 +12,8 @@ RUN rm -rf /src/node_modules && cp -a /tmp/node_modules /src/
 
 WORKDIR /src
 
+ENV HOST=https://emotiontech.ae
+
 RUN npm run build
 
 CMD ["npm", "run", "start"]

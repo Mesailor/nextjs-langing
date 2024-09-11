@@ -3,9 +3,6 @@ services:
   next-emotion-landing:
     container_name: next-emotion-landing
     restart: unless-stopped
-    environment:
-      - NODE_ENV=production
-      - HOST=https://emotiontech.ae
     build:
       context: ./
 
